@@ -19,4 +19,21 @@ public class Thingy
 		this.age=age;
 		this.weight=weight;
 	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public int getAge()
+	{
+		return age;
+	}
+	
+	public double getWeight()
+	{
+		return weight;
+	}
+
+
 }
