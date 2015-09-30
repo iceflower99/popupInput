@@ -1,7 +1,7 @@
 package input.controller;
 
 import input.veiw.PopupVeiw;
-import pop.up.Thingy;
+import input.model.Thingy;
 public class InputController
 {
 
@@ -64,7 +64,7 @@ public class InputController
 			isInt=true;
 		}
 		
-		catch(NumberFormatExecption error)
+		catch(NumberFormatException error)
 		{
 			myPopups.showResponse("not an int - bad value will be used");
 		}
