@@ -1,6 +1,7 @@
 package input.veiw;
 
 import javax.swing.JOptionPane;
+
 public class PopupVeiw
 {
     public void showResponse(String wordsFromSomewhere)
